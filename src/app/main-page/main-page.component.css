@@ -1,11 +1,18 @@
 h1 {
     margin: 50px 0 20px;
 }
+.btn a {
+    color: grey;
+    text-decoration: none;
+}
+.btn a:hover {
+    color: black;
+}
 .methods {
     padding: 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
 }
 
 @media (max-width: 700px) {
